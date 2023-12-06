@@ -66,7 +66,7 @@
         function pop_SMUSPartners_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><b>' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</b></td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['City'] !== null ? autolinker.link(feature.properties['City'].toLocaleString()) : '') + '</td>\
